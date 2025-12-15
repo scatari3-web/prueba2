@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Herramientas de Estadística Poblacional - Bolivia</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #0b3c5d;
+      --secondary: #1f7a8c;
+      --accent: #e6f2f5;
+      --highlight: #f4a261;
+      --text-dark: #1c1c1c;
+      --text-light: #ffffff;
+      --bg-light: #f7f9fb;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-light);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: var(--text-light);
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    nav {
+      background-color: #ffffff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 1rem;
+      gap: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: var(--secondary);
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    h2 {
+      color: var(--primary);
+      margin-bottom: 1.5rem;
+      font-size: 2.2rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 2rem;
+    }
+
+    .card {
+      background-color: #ffffff;
+      border-radius: 16px;
+      padding: 2.2rem;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+    }
+
+    .card h3 {
+      color: var(--secondary);
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background-color: var(--primary);
+      color: var(--text-light);
+      text-align: center;
+      padding: 2.5rem 2rem;
+      margin-top: 4rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Herramientas de Estadística Poblacional</h1>
+    <p>Instrumentos y métodos utilizados para el análisis demográfico en Bolivia</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="#institucionales">Institucionales</a></li>
+      <li><a href="#tecnologicas">Tecnológicas</a></li>
+      <li><a href="#metodologicas">Metodológicas</a></li>
+      <li><a href="indicadores.html">Indicadores</a></li>
+    </ul>
+  </nav>
+
+  <section id="institucionales">
+    <h2>Herramientas Institucionales</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Instituto Nacional de Estadística (INE)</h3>
+        <p>Entidad oficial encargada de censos, encuestas y producción de datos demográficos en Bolivia.</p>
+      </div>
+      <div class="card">
+        <h3>Censos Nacionales</h3>
+        <p>Permiten obtener información completa sobre población, vivienda y características socioeconómicas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tecnologicas">
+    <h2>Herramientas Tecnológicas</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Software Estadístico</h3>
+        <p>Programas como SPSS, R y Python se utilizan para análisis, modelado y visualización de datos poblacionales.</p>
+      </div>
+      <div class="card">
+        <h3>Sistemas de Información Geográfica (SIG)</h3>
+        <p>Permiten analizar la distribución espacial de la población y apoyar la planificación territorial.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="metodologicas">
+    <h2>Herramientas Metodológicas</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Encuestas Demográficas</h3>
+        <p>Recopilan información sobre fecundidad, mortalidad, migración y condiciones de vida.</p>
+      </div>
+      <div class="card">
+        <h3>Indicadores Poblacionales</h3>
+        <p>Tasas, razones e índices que facilitan la interpretación de fenómenos demográficos.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Estadística Poblacional en Bolivia · Página de herramientas</p>
+  </footer>
+
+</body>
+</html>
